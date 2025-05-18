@@ -7,13 +7,13 @@
 -- Licensed under MIT License
 
 SELECT TOP 10 
-    T1.ItemCode      AS 'Item No.', 
-    T2.ItemName     AS 'Item Name', 
-    T1.Quantity        AS 'Quantity', 
-    T1.Price	AS 'Price', 
-    T0.DocDate        AS 'Order Date', 
-    T0.DocNum	AS 'Document Number',
-    T2.OnHand	AS 'In Stock',
+    T1.ItemCode    AS 'Item No.', 
+    T2.ItemName    AS 'Item Name', 
+    T1.Quantity    AS 'Quantity', 
+    T1.Price       AS 'Price', 
+    T0.DocDate     AS 'Order Date', 
+    T0.DocNum      AS 'Document Number',
+    T2.OnHand      AS 'In Stock',
     (T2.OnHand - T2.IsCommited + T2.OnOrder) AS 'Available', -- Calculate available quantity
     CASE T0.DocStatus
         WHEN 'O' THEN 'Open'
