@@ -6,6 +6,8 @@ This repository contains a formatted search query for SAP Business One to displa
 
 The query is in **[Recent_sales_items.sql](Formatted_Search/Recent_sales_items.sql)**. It retrieves the top 10 sales items for a customer, including item details, stock levels, and order status.
 
+![image](https://github.com/user-attachments/assets/573300a3-3936-4e82-8644-bbcb66e87b2c)
+
 
 ## How to Use
 
