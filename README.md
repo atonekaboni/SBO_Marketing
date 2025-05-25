@@ -18,7 +18,8 @@ The query is in **[Recent_sales_items.sql](Formatted_Search/Recent_sales_items.s
 5. Assign the "Recent Sales Items" query by selecting "Search in Existing User-Defined Values according to Saved Query".
 6. Click the "Item No." field to see the top sales items grid.
 
-For more details, check the PDF on LinkedIn: [Available_Soon!]
+For more details, check the PDF: **[SAP Business One Recent Sales Items](https://github.com/user-attachments/files/20432247/SBO_FS_Recent_Sales_Items.pdf)**
+
 
 ## License
 MIT License (or choose another open-source license).
